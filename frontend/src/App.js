@@ -3,6 +3,7 @@ import React from "react";
 import "bulma/css/bulma.min.css";
 import NoteApp from "./notes/NoteApp";
 
+
 function App() {
   return <NoteApp />;
 }

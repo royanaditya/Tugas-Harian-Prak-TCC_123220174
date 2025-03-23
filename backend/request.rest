@@ -5,8 +5,8 @@ POST http://localhost:5000/add-note
 Content-Type: application/json
 
 {
-    "judul": "Puasa",
-    "isi": "Test 1234"
+    "judul": "Rapat basa-basi",
+    "isi": "proker"
 }
 ###
 PUT http://localhost:5000/edit-note/1
@@ -17,7 +17,7 @@ Content-Type: application/json
     "isi": "Test 1234"
 }
 ###
-DELETE http://localhost:5000/delete-note/2
+DELETE http://localhost:5000/delete-note/6
 
 ###
 GET http://localhost:5000/notes

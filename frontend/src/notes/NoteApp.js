@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NoteList from "./NoteList";
 import NoteForm from "./NoteForm";
 import NoteEdit from "./NoteEdit";
+import { BASE_URL } from "../utils";
 
 const NoteApp = () => {
   return (
